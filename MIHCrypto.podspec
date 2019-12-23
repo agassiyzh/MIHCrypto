@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
   s.name         = "MIHCrypto"
-  s.version      = "0.5.0"
+  s.version      = "0.5.1"
   s.license      = 'MIT'
   s.summary      = "OpenSSL wrapper for Objective-C"
   s.description  = "MIHCrypto provides an object-oriented cryptography framework based on libCrypto 
                     by OpenSSL. Supports RSA, DES, AES, ECC (Elliptic Curve Cryptography) and more."
   s.homepage     = "https://github.com/hohl/MIHCrypto"
   s.authors       =  {'Michael Hohl' => 'me@michaelhohl.net'}
-  s.source       = { :git => "https://github.com/hohl/MIHCrypto.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/agassiyzh/MIHCrypto.git", :tag => "#{s.version}" }
   
   s.ios.deployment_target = '6.0'
   s.osx.deployment_target = '10.8'
